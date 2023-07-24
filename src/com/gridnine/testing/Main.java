@@ -22,7 +22,7 @@ public class Main {
         System.out.println(flightService.withoutDepartureBeforeCurrentTime(flightList));
         System.out.println("\nСписок рейсов, кроме тех, где имеются сегменты с датой прилёта раньше даты вылета:");
         System.out.println(flightService.withoutDepartureWithIncorrectSegments(flightList));
-        System.out.println("\nСписок рейсов, кроме тех, где общее время, проведённое на земле превышает два часа:");
+        System.out.println("\nСписок рейсов, кроме тех, где общее время, проведённое на земле, превышает два часа:");
         System.out.println(flightService.withoutDepartureWithEarthTimeMoreThanTwoHours(flightList));
 
     }
